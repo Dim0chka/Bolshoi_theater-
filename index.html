@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Connecting fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Connecting social media icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>History</title>
+</head>
+<body>
+
+<!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <nav class="navigation">
+                    <a class="nav_link" href="#">Главная</a>
+                    <a class="nav_link" href="#">О театре</a>
+                    <a class="nav_link" href="#">Наши постановки</a>
+                    <a class="nav_link" href="#">Партнеры театра</a>
+                    <a class="nav_link" href="#">Контакты</a>
+                    <a class="number_link">+7 495 548 45 42</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    
+<!-- First page -->
+    <div class="background">
+
+        <!-- Social informathion -->
+        <div class="information">   
+            <div class="informathion_border_text">
+                <div class="information_text">Контактная информация</div>
+                <div class="information_border"></div>
+            </div>
+            <div class="social">
+                <li class="social_link">
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social_link">
+                    <a href="">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </li>
+                <li class="social_link">
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social_link">
+                    <a href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </div>
+        
+        </div>
+
+
+        <div class="container">
+
+        <!-- about the Bolshoi Theater -->
+            <div class="initial">   
+                <h2 class="initial_suptitle">Большой театр</h2> 
+                <div class="initial_text">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</div>
+                <a class="btn" href="#">Афиша</a>
+            </div>
+            
+        <!-- Book about Bolshoi Theater -->
+            <div class="book">   
+
+                <div class="book_distance">
+                    <div class="book_background">
+                        <div class="book_img">
+                            <img id="B_images" class="image" src="images/book.jpg" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Next and previous buttons -->
+                <div class="previous_next_border">   
+                    <div class="previous_border">
+                        <div class="border_left"></div>
+                        <div onclick="go_to_left()" class="previous">Пред</div>
+                    </div>
+                    <div class="next_border">
+                        <div onclick="go_to_right()" class="next">След</div>
+                        <div class="border_right"></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container2">
+        <div class="theatr"><span>О</span>театре</div>
+    </div>
+    <div class="about">
+        <div class="about_1">
+            <div class="about_theatr">Самый лучший театр СПБ</div>
+            <div class="about_theatr_text">Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</div>
+        </div>
+
+        <div class="about_2">
+            <div class="about_number">немного о цифра</div>
+            <li class="icon_">
+                <i class="fas fa-chair"></i>
+            </li>
+            <div class="about_chair"><span>1600</span> посадочный мест</div>
+            <li class="icon_2">
+                <i class="fas fa-theater-masks"></i>
+            </li>
+            <div class="about_year"><span>350</span> лет истории</div>
+
+        </div>
+
+        <div class="about_3">
+            <img class="bigtheatr" src="images/bigtheatr.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="container3">
+        <div class="our_theatr"><span>Наши</span>постановки</div>
+    </div>
+    
+    <div class="our_the">
+        <div class="picture_1">
+            <img class="picture_2" src="images/picture_1.jpg" alt="">
+        </div>
+    
+        <div class="picture_1">
+            <img class="picture_2" src="images/picture_2.jpg" alt="">
+        </div>
+
+        <div class="picture_1">
+            <img class="picture_2" src="images/picture_3.jpg" alt="">
+        </div>
+
+        <div class="picture_1">
+            <img class="picture_2" src="images/picture_4.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="level">
+        <div class="picture_level">
+            <div class="picture_true"></div>   
+        </div>
+
+        <div class="number_photo">
+            <div class="first_number"><span>2018</span></div>
+            <div class="first_number"><span>2019</span></div>
+            <div class="first_number"><span>2020</span></div>
+        </div>
+
+        <div class="all_photo">
+            <div class="star">
+                <li class="star_link">
+                    <i class="fas fa-star"></i>
+                </li>
+                <li class="star_link">
+                    <i class="fas fa-star"></i>
+                </li>
+                <li class="star_link">
+                    <i class="fas fa-star"></i>
+                </li>
+                <li class="star_link">
+                    <i class="fas fa-star"></i>
+                </li>
+                <li class="star_link">
+                    <i class="fas fa-star"></i>
+                </li>     
+            </div>
+            <div class="cont_text">
+                <div class="text_photo">Лучший театр</div>
+                <div class="text_photo">по мнению театральных</div>
+                <div class="text_photo">критиков Парижа</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container_4">
+        <div class="sponsor_text"><span>партнеры</span>театра</div>
+    </div>
+
+    <div class="sponsor_level">
+        <li class="sponsor_link">
+            <i class="fab fa-amazon"></i>
+        </li>
+        <div class="amazon">amazon</div>
+    </div>
+
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

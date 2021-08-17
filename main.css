@@ -1,0 +1,639 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    margin: 0;
+    background: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+ }
+
+/* Container */
+.container {
+    align-items: center;
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* Header */
+.header {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    width: 100%;
+    padding-top: 51px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigation */
+.navigation {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 25px;
+    margin: 0 16px;
+    position: relative;
+}
+
+.nav_link:after {
+    content: "";
+    display: none;
+    width: 100%;
+    height: 2px;
+    background-color: #D1A954;
+    position: absolute;
+}
+
+.nav_link:hover {
+    color: #fff;
+}
+
+.nav_link:hover:after {
+    display: block;
+}
+
+/* Number */
+.number_link {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #fff;
+    left: 50px;
+    position: relative;
+    margin: 0 70px;
+}
+
+.number_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #D1A954;
+    position: absolute;
+}
+
+/* Background */
+.background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), 
+    rgba(51, 51, 51, 0.85)), url(images/theatr.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Informathion */
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    width: 7%;
+    height: 100vh;
+    background: rgba(51, 51, 51, 0.75);
+}
+
+.informathion_border_text {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information_text {
+    font-weight: bold;
+    width: 220px;
+    height: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+}
+
+.information_border {
+    width: 60px;
+    border: 2px solid #C4C4C4;
+    transform: rotate(90deg);
+}
+
+/* Social */
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    color: #C4C4C4;
+    margin-top: 60px;
+}
+
+.social_link {
+    display: flex;
+}
+
+/* Fa-Instagram */
+.fa-instagram {
+    transition: .2s linear;
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.fa-instagram:hover {
+    color: #D1A954;
+}
+
+/* Fa-Vk */
+.fa-vk {
+    transition: .2s linear;
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.fa-vk:hover {
+    color: #D1A954;
+}
+
+/* Fa-Facebook */
+.fa-facebook-f {
+    transition: .2s linear;
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.fa-facebook-f:hover {
+    color: #D1A954;
+}
+
+/* Fa-Youtube */
+.fa-youtube {
+    transition: .2s linear;
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.fa-youtube:hover {
+    color: #D1A954;
+}
+
+
+
+/* Initial */
+.initial {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 540px;
+    justify-content: space-evenly;
+}
+
+.initial_suptitle {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.initial_text {
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+/* Btn */
+.btn {
+    width: 160px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 47px;
+    background-color: #D1A954;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Book */
+.book {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.book_distance {
+    padding: 0 15px;
+}
+
+.book_background {
+    background: linear-gradient(0deg, rgba(209, 169, 84, 0.85),
+     rgba(209, 169, 84, 0.85));
+}
+
+.book_img {
+    transition: transform .2s linear;
+}
+
+.image {
+    width: 275px;
+    height: 345px;
+}
+
+.book_distance:hover .book_img {
+    transform: translate3d(-12px, -12px, 0);
+}
+
+.book_img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .1s linear;
+}
+
+
+/* Previous & next border */
+.previous_next_border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+
+/* Previous & border */
+.previous_border  {
+    align-items: center;
+    width: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.previous {
+    transition: .2s linear;
+    color: #C4C4C4;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+}
+
+.border_left {
+    transition: .2s linear;
+    width: 0;
+    height: 0;
+    border-right: 17px solid #C4C4C4;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+/* Next & border */
+.next_border  {
+    align-items: center;
+    width: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next {
+    transition: .2s linear;
+    color: #C4C4C4;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+}
+
+.border_right {
+    transition: .2s linear;
+    width: 0;
+    height: 0;
+    border-left: 17px solid #C4C4C4;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+
+/* O театре */
+.container2 {
+    
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.theatr {
+    color: #fff;
+}
+
+.theatr span {
+    margin-right: 15px;
+    color: #D1A954;
+}
+
+/* About вторая страница */
+
+.about {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.about_1 {
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+
+.about_theatr {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+
+}
+
+.about_theatr_text {
+    font-family: Open Sans;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.about_number {
+    margin-bottom: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+}
+
+.icon_ {
+    display: flex;
+}
+
+.fa-chair {
+    color: #fff;
+    font-size: 50px;
+}
+
+.about_chair {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about_chair span {
+    font-size: 16px;
+    color: #D1A954;
+    font-weight: bold;
+}
+
+.icon_2 {
+    display: flex;
+}
+
+.fa-theater-masks {
+    font-size: 50px;
+    color: #fff;
+}
+
+.about_year {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about_year span {
+    color: #D1A954;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about_2 {
+    width: 255px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Our theatre */
+
+.container3 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.our_theatr {
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.our_theatr span {
+    margin-right: 15px;
+    color: #D1A954;
+}
+
+/* New page */
+
+.our_the {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.picture_1 {
+    position: relative;
+    width: 340px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.picture_2 {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.picture_2::after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9));
+}
+
+.picture_2:hover {
+    transform: scale(1.1);
+}
+
+/* Вторая картинка на 3 странице */
+
+.level {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture_level {
+    width: 910px;
+    height: 450px;
+}
+
+.picture_true {
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9)), url(images/picture_1.jpg) 75% 25% no-repeat;
+    min-height: 100%;
+}
+
+.all_photo {
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    position: absolute;
+}
+
+.number_photo {
+    right: 60%;
+    position: absolute;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first_number span {
+    font-size: 70px;
+    color: #D1A954;
+    font-weight: bold;
+}
+
+.star {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.star_link {
+    display: flex;
+}
+
+.fa-star {
+    color: #D1A954;
+    font-size: 25px;
+}
+
+.text_photo {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.cont_text {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Спонсоры */
+
+.container_4 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.sponsor_text {
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.sponsor_text span {
+    margin-right: 15px;
+    color: #D1A954;
+}
+
+/* amazon */
+
+.sponsor_level {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor_link {
+    display: flex;
+}
+
+.fa-amazon {
+    font-size: 100px;
+    color: #C4C4C4;
+}
+
+.amazon {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}

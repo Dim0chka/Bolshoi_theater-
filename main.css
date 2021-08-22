@@ -605,6 +605,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* amazon */
 
+.container_5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 910px;
+    margin: 0 auto; 
+}
+
 .sponsor_level {
     margin-bottom: 50px;
     display: flex;
@@ -629,13 +637,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1em;
 }
 
-.container_5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 910px;
-    margin: 0 auto; 
-}
+/* Copyright */
 
 .copyright {
     border-top: 1px solid #565656;

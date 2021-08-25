@@ -649,3 +649,47 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
 }
+
+/* Methinat and more other */
+
+.methinat {
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.methinat span {
+    margin-right: 15px;
+    color: #D1A954;
+}
+
+.container_6 {
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* all met */
+
+.all_met {
+    width: 910px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 255px;
+    height: 150px;
+}
+
+.numberS {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

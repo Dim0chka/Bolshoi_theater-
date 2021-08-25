@@ -672,7 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 /* all met */
 
 .all_met {
-    width: 910px;
+    width: 1050px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -692,4 +692,55 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+}
+
+.contact_2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.input_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#color-placeholder::-webkit-input-placeholder {
+    color: #989898;
+}
+
+.color-text {
+    background-color: #444444;
+    color: #D1A954;
+}
+
+input.color-text {
+    width: 180px;
+    height: 35px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #616161;
+    font-size: 12px;
+}
+
+.color-text-2 {
+    background-color: #444444;
+    color: #D1A954;
+}
+
+input.color-text-2 {
+    width: 270px;
+    height: 80px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #616161;
+    font-size: 12px;
 }

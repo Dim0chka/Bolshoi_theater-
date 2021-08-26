@@ -672,7 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 /* all met */
 
 .all_met {
-    width: 1050px;
+    width: 910px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -684,28 +684,28 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-evenly;
     flex-direction: column;
     width: 255px;
-    height: 150px;
+    height: 170px;
 }
 
 .numberS {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
 .contact_2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     width: 700px;
-    height: 300px;
+    height: 285px;
 }
 
 .input {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
 }
 
@@ -743,4 +743,41 @@ input.color-text-2 {
     padding: 5px 10px 5px 10px;
     border: 1px solid #616161;
     font-size: 12px;
+}
+
+.infoO {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dann {
+    width: 350px;
+    line-height: 150%;
+    font-weight: normal;
+    font-size: 12px;
+    color: #989898;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 190px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 47px;
+    background-color: #D1A954;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: #333;
 }

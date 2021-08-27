@@ -79,6 +79,22 @@ $('.next').mouseout(function(){
 
 
 // Отправить 
-function msg() {
-    alert("Спасибо за заявку! Ожидайте ответа в ближайшее время.")
-}
+$("input").on("keyup", function(){
+    $(this).css("border-color", "#616161")
+})
+
+$(".btn2").on("click", function(){
+    if ($(".email").val().includes("@") == false) {
+        $(".email").css("border-color", "red")
+    }
+    if ($(".email").val().includes(".") == false) {
+        $(".email").css("border-color", "red")
+    }
+    if ($(".tel").val().length < 11) {
+        $(".tel").css("border-color", "red")
+    }
+    else {
+        alert("Успешно!")
+    }
+})
+

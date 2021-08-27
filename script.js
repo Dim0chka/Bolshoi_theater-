@@ -76,3 +76,9 @@ $('.next').mouseout(function(){
                 $(".border_left").css("border-bottom","7px solid transparent")
                 
                 })
+
+
+// Отправить 
+function msg() {
+    alert("Спасибо за заявку! Ожидайте ответа в ближайшее время.")
+}

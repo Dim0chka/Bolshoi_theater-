@@ -406,7 +406,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-.about_number {
+.about_number_theater {
+    width: 255px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number_theater {
     margin-bottom: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -414,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1em;
 }
 
-.icon_ {
+.icon_chair {
     display: flex;
 }
 
@@ -423,18 +431,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50px;
 }
 
-.about_chair {
+.theater_seat {
     font-size: 16px;
     font-weight: bold;
 }
 
-.about_chair span {
+.theater_seat span {
     font-size: 16px;
     color: #D1A954;
     font-weight: bold;
 }
 
-.icon_2 {
+.icon_masks {
     display: flex;
 }
 
@@ -443,25 +451,18 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.about_year {
+.theater_years {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
 }
 
-.about_year span {
+.theater_years span {
     color: #D1A954;
     font-size: 16px;
     font-weight: bold;
 }
 
-.about_2 {
-    width: 255px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 /* Our theatre */
 

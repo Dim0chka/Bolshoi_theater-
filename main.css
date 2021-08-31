@@ -374,7 +374,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* informathion about theater */
-
 .about {
     margin: 0 auto;
     width: 1200px;
@@ -384,6 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* Best theater */
 .about_big_theater {
     width: 445px;
     display: flex;
@@ -406,9 +406,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
+/* Numbers theater */
 .about_number_theater {
     width: 255px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -464,27 +464,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Our theatre */
-
-.container3 {
+/* Our productions */
+.our_productions {
     margin-top: 150px;
     text-align: center;
 }
 
-.our_theatr {
+.theater_productions {
     letter-spacing: 0.1em;
     font-size: 48px;
     text-transform: uppercase;
 }
 
-.our_theatr span {
+.theater_productions span {
     margin-right: 15px;
     color: #D1A954;
 }
 
-/* New page */
-
-.our_the {
+/* Photo theater with productions */
+.photo_productions {
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -493,14 +491,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 100px;
 }
 
-.picture_1 {
+.picture_theater {
     position: relative;
     width: 340px;
     height: 500px;
     overflow: hidden;
 }
 
-.picture_2 {
+/* First picture */
+.first_picture {
     position: relative;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(images/picture_1.jpg) 75% 25% no-repeat;;
     width: 100%;
@@ -508,7 +507,32 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.5s;
 }
 
-.picture_22 {
+.first_picture:hover {
+    transform: scale(1.1);
+}
+
+
+.first_performance {
+    padding: 20px 50px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.first_data {
+    position: absolute;
+    padding: 400px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+/* Second picture */
+.second_picture {
     position: relative;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(images/picture_2.jpg) 75% 25% no-repeat;;
     width: 100%;
@@ -516,7 +540,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.5s;
 }
 
-.wool1 {
+.second_picture:hover {
+    transform: scale(1.1);
+}
+
+.second_performance {
     padding: 20px 50px;
     position: absolute;
     font-weight: bold;
@@ -525,7 +553,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.wool_21 {
+.second_data {
     position: absolute;
     padding: 400px 0px;
     font-weight: bold;
@@ -535,7 +563,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(-90deg);
 }
 
-.picture_222 {
+/* Third picture */
+.third_picture {
     position: relative;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(images/picture_3.jpg) 75% 25% no-repeat;;
     width: 100%;
@@ -543,7 +572,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.5s;
 }
 
-.wool11 {
+.third_picture:hover {
+    transform: scale(1.1);
+}
+
+.third_performance {
     padding: 20px 50px;
     position: absolute;
     font-weight: bold;
@@ -552,7 +585,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.wool_22 {
+.third_data {
     position: absolute;
     padding: 400px 0px;
     font-weight: bold;
@@ -562,7 +595,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(-90deg);
 }
 
-.picture_2222 {
+/* Fourth picture */
+.fourth_picture {
     position: relative;
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.65), rgba(51, 51, 51, 0.65)), url(images/picture_4.jpg) 75% 25% no-repeat;;
     width: 100%;
@@ -570,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.5s;
 }
 
-.wool111 {
+.fourth_performance {
     padding: 20px 50px;
     position: absolute;
     font-weight: bold;
@@ -579,7 +613,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.wool_222 {
+.fourth_data {
     position: absolute;
     padding: 400px 0px;
     font-weight: bold;
@@ -589,19 +623,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(-90deg);
 }
 
-.picture_2:hover {
-    transform: scale(1.1);
-}
-
-.picture_22:hover {
-    transform: scale(1.1);
-}
-
-.picture_222:hover {
-    transform: scale(1.1);
-}
-
-.picture_2222:hover {
+.fourth_picture:hover {
     transform: scale(1.1);
 }
 
@@ -877,7 +899,7 @@ input.color-text-2 {
     color: #333;
 }
 
-.wool {
+.first_performance {
     padding: 20px 50px;
     position: absolute;
     font-weight: bold;
@@ -886,7 +908,7 @@ input.color-text-2 {
     text-transform: uppercase;
 }
 
-.wool_2 {
+.first_number {
     position: absolute;
     padding: 400px 0px;
     font-weight: bold;

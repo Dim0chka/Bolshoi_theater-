@@ -354,8 +354,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* O театре */
-.container2 {
+/* About theater */
+.our_theater {
     
     text-transform: uppercase;
     font-size: 43px;
@@ -364,16 +364,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 150px;
 }
 
-.theatr {
+.about_theater {
     color: #fff;
 }
 
-.theatr span {
+.about_theater span {
     margin-right: 15px;
     color: #D1A954;
 }
 
-/* About вторая страница */
+/* informathion about theater */
 
 .about {
     margin: 0 auto;
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.about_1 {
+.about_big_theater {
     width: 445px;
     display: flex;
     flex-direction: column;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 
-.about_theatr {
+.best_theatr {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 21px;
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.about_theatr_text {
+.info_theater {
     font-family: Open Sans;
     line-height: 150%;
     font-size: 14px;
@@ -894,3 +894,4 @@ input.color-text-2 {
     text-transform: uppercase;
     transform: rotate(-90deg);
 }
+

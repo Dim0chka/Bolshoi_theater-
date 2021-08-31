@@ -899,22 +899,4 @@ input.color-text-2 {
     color: #333;
 }
 
-.first_performance {
-    padding: 20px 50px;
-    position: absolute;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-.first_number {
-    position: absolute;
-    padding: 400px 0px;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    transform: rotate(-90deg);
-}
 

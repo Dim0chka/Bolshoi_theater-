@@ -545,7 +545,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .second_performance {
-    padding: 20px 50px;
+    padding: 20px 45px;
     position: absolute;
     font-weight: bold;
     font-size: 24px;
@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .second_data {
     position: absolute;
-    padding: 400px 0px;
+    padding: 410px 0px;
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.1em;
@@ -577,7 +577,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .third_performance {
-    padding: 20px 50px;
+    padding: 20px 45px;
     position: absolute;
     font-weight: bold;
     font-size: 24px;
@@ -587,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .third_data {
     position: absolute;
-    padding: 400px 0px;
+    padding: 415px 0px;
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.1em;
@@ -605,7 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fourth_performance {
-    padding: 20px 50px;
+    padding: 20px 45px;
     position: absolute;
     font-weight: bold;
     font-size: 24px;
@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fourth_data {
     position: absolute;
-    padding: 400px 0px;
+    padding: 420px 0px;
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.1em;

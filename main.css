@@ -656,7 +656,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
-.number_photo {
+.exacly_years {
     right: 60%;
     position: absolute;
     height: 400px;
@@ -666,7 +666,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.first_number span {
+.years span {
     font-size: 70px;
     color: #D1A954;
     font-weight: bold;

@@ -1,7 +1,7 @@
 // Слайдер книги
 var theNum = "0";
 
-let arr = ["imges", "imges1", "imges2", "book"];
+let arr = ["book2"];
 
 function go_to_right()
 
@@ -93,12 +93,15 @@ $(".btn2").on("click", function(){
     if ($(".tel").val().length < 11) {
         $(".tel").css("border-color", "red")
     }
+    if ($(".color-text-2").val().length > 100) {
+        $(".color-text-2").css("border-color", "red")
+    }
     else {
         alert("Успешно!")
     }
 })
 
-// Скол страницы 
+// Скрол страницы 
 $("[data-scroll]").on("click", function(event) {
     event.preventDefault();
 

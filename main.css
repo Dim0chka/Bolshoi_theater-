@@ -627,9 +627,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.1);
 }
 
-/* Вторая картинка на 3 странице */
-
-.level {
+/* about theater critics */
+.theater_critics {
     margin-top: 150px;
     display: flex;
     flex-direction: row;
@@ -637,25 +636,17 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.picture_level {
+.picture_critics {
     width: 910px;
     height: 450px;
 }
 
-.picture_true {
+.picture_about_critics {
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.9), rgba(51, 51, 51, 0.9)), url(images/picture_1.jpg) 75% 25% no-repeat;
     min-height: 100%;
 }
 
-.all_photo {
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 190px;
-    position: absolute;
-}
-
+/* years of visiting critics */
 .exacly_years {
     right: 60%;
     position: absolute;
@@ -672,6 +663,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/* star icons */
+.icon_star {
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    position: absolute;
+}
+
+
 .star {
     width: 180px;
     display: flex;
@@ -679,7 +681,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     
 }
-.star_link {
+.star_critics {
     display: flex;
 }
 
@@ -688,20 +690,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px;
 }
 
-.text_photo {
-    font-weight: bold;
-    font-size: 36px;
-}
-
-.cont_text {
+/* сritics comments */
+.info_critics {
     height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/* Спонсоры */
+.info_critics_about {
+    font-weight: bold;
+    font-size: 36px;
+}
 
+/* Спонсоры */
 .container_4 {
     margin-top: 150px;
     text-align: center;

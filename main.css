@@ -703,27 +703,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
 }
 
-/* Спонсоры */
-.container_4 {
+/* fourth page */
+.partners_theatre {
     margin-top: 150px;
     text-align: center;
     margin-bottom: 100px;
 }
 
-.sponsor_text {
+.name_partners {
     letter-spacing: 0.1em;
     font-size: 48px;
     text-transform: uppercase;
 }
 
-.sponsor_text span {
+.name_partners span {
     margin-right: 15px;
     color: #D1A954;
 }
 
-/* amazon */
-
-.container_5 {
+/* about the theater's partners */
+.about_theater_partners {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -731,14 +730,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto; 
 }
 
-.sponsor_level {
+.sponsor_theater {
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.sponsor_link {
+.sponsor_logo {
     display: flex;
 }
 
@@ -755,41 +754,26 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1em;
 }
 
-/* Copyright */
-
-.copyright {
-    border-top: 1px solid #565656;
-    max-width: 910px;
-    margin: 0 auto;
-    padding: 30px 0;
-    font-size: 14px;
-    color: #989898;  
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Methinat and more other */
-
-.methinat {
-    letter-spacing: 0.1em;
-    font-size: 48px;
-    text-transform: uppercase;
-}
-
-.methinat span {
-    margin-right: 15px;
-    color: #D1A954;
-}
-
-.container_6 {
+/* fifth page */
+.become_maecenas {
     margin-top: 120px;
     text-align: center;
     margin-bottom: 100px;
 }
 
-/* all met */
+.maecenas {
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    text-transform: uppercase;
+}
 
-.all_met {
+.maecenas span {
+    margin-right: 15px;
+    color: #D1A954;
+}
+
+/* contact */
+.all_contact {
     width: 910px;
     margin: 0 auto;
     display: flex;
@@ -797,7 +781,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.contact_1 {
+.contact_connections {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -805,14 +789,15 @@ h1, h2, h3, h4, h5, h6 {
     height: 170px;
 }
 
-.numberS {
+.contact_number {
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
-.contact_2 {
+/* Become a patron of the big theater */
+.contact_input {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -820,14 +805,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 285px;
 }
 
-.input {
+.all_input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
 }
 
-.input_1 {
+.input_box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -865,14 +850,15 @@ input.color-text-2 {
     font-size: 12px;
 }
 
-.infoO {
+/* information about the security of your data */
+.sending_information {
     height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.dann {
+.safety_information {
     width: 350px;
     line-height: 150%;
     font-weight: normal;
@@ -902,3 +888,14 @@ input.color-text-2 {
 }
 
 
+/* conclusion */
+.copyright {
+    border-top: 1px solid #565656;
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #989898;  
+    display: flex;
+    justify-content: space-between;
+}

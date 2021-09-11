@@ -1,7 +1,7 @@
 // Слайдер книги
 var theNum = "0";
 
-let arr = ["book2"];
+let arr = ["book","book2","book3",];
 
 function go_to_right()
 
@@ -87,13 +87,13 @@ $(".btn2").on("click", function(){
     if ($(".email").val().includes("@") == false) {
         $(".email").css("border-color", "red")
     }
-    if ($(".email").val().includes(".") == false) {
+    else if ($(".email").val().includes(".") == false) {
         $(".email").css("border-color", "red")
     }
-    if ($(".tel").val().length < 11) {
+    else if ($(".tel").val().length < 11) {
         $(".tel").css("border-color", "red")
     }
-    if ($(".color-text-2").val().length > 100) {
+    else if ($(".color-text-2").val().length > 100) {
         $(".color-text-2").css("border-color", "red")
     }
     else {

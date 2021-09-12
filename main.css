@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .header.fixed {
     padding: 20px 0;
 
-    background-color: #444444;
+    background-color: #333;
     box-shadow: 0 3px 10px rgba(0,
     0, 0, 0.2);
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header.active {
-    background-color: #444444;
+    background-color: #333;
 }
 
 .header_inner {
@@ -79,15 +79,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 25px;
     margin: 0 16px;
     position: relative;
+    transition: color .2s linear;
 }
 
 .nav_link:after {
     content: "";
-    display: none;
+    display: block;
+    opacity: 0;
+
     width: 100%;
     height: 2px;
     background-color: #D1A954;
     position: absolute;
+    transition: opacity .2s linear;
 }
 
 .nav_link:hover {
@@ -95,28 +99,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav_link:hover:after {
-    display: block;
+    opacity: 1;
 }
 
-/* Number */
-.number_link {
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-    color: #fff;
-    left: 50px;
-    position: relative;
-    margin: 0 70px;
-}
-
-.number_link:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #D1A954;
-    position: absolute;
+.nav_link span{
+    padding-left: 40px;
 }
 
 /* Background */
